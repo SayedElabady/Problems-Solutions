@@ -9,6 +9,15 @@ typedef  long long ll;
 using namespace std;
 
 
+
+
+
+
+//cpntrr asdasdsdddddddddddddddddddddddddddddddddddd
+
+
+
+
 int main(){
      int n , x ,k, pos=0 , neg=0;
      scanf("%d %d"  , &n , &k);
