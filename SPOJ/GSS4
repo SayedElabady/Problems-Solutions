@@ -1,0 +1,96 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define MOD 1000000007
+#define PI 3.14159265358979323846
+#define forn(i,s,n) for(int i=s ; i<n ; i++)
+#define fornr(i,s,n) for(int i=n ; i>s ; i--)
+#define mp make_pair
+#define pb push_back  
+#define fr first
+#define sc second
+const int SIZE=100001 ;
+const int OO = (int)1e9;
+typedef vector<int> vi;
+typedef long long int ll;  
+typedef pair<int , int > ii;
+typedef pair<pair<int, double> , int > iii;
+int n , q , root[SIZE] ;
+ll  BITTree[SIZE] , arr[SIZE];
+// the idea is we get the sumquery by ordinary BIT .. update we need to put in our consideration
+// some observations is that after some operation the elements will be 1 after 5 or 6 times i think
+// so we don't to pass on the 1 elements again as we don't need it..
+ 
+ 
+// i've one question..it gives me TLE when i use n globally.. an ac when i send it as a parameter..why?
+void init(){
+  memset(BITTree , 0 , sizeof BITTree);
+}
+// ordinary updating
+void UPDATE(int idx , ll val    ){
+  while(idx <= n){
+    BITTree[idx] += val ;
+    idx += (idx & -idx);
+  }
+ 
+}
+ll getSum(int idx){
+  ll ret = 0;
+  while(idx >0){
+    ret += BITTree[idx];
+    idx -=(idx & -idx);
+ 
+  }
+  return ret;
+}
+// here we use this array to tell us the parent " the very near non 1-value elemnt in our array " 
+// it's like dsu..
+// i've all the idea of the solution excpet this part i read editorial for it.
+int find(int node){
+	if(node != root[node])root[node]= find(root[node]);
+	return root[node];
+}
+ 
+void ans(int x , int y  ){
+  int it = find(x);
+  while(it>=x && it<=y){
+  	if(arr[it]!=1){
+    UPDATE(it , -arr[it] );
+    arr[it] = (ll)floor(sqrt((double)arr[it]));
+    UPDATE(it , arr[it] );
+    //modifiying the root array
+    if(arr[it]==1)root[it] = it+1;
+  	}
+    it = find(it + 1);
+  }
+ 
+ 
+}
+int  main(){
+  int cas=0;
+  while(scanf("%d" , &n)==1){
+  	memset(BITTree , 0 , sizeof BITTree);
+      forn(i , 1 , n+1){
+        scanf("%lld" , arr + i);
+ 
+        UPDATE(i , arr[i]);
+        root[i]=i;
+      }
+      printf("Case #%d:\n" , ++cas);
+      scanf("%d" , &q);
+      while(q--){
+        int tp , x  ,y;
+        scanf("%d %d %d" , &tp , &x , &y);
+        if(x > y)swap(x , y);
+        if(tp){
+          printf("%lld\n" , getSum(y) - getSum(x-1));
+        }else {
+ 
+ans(x , y );
+ 
+        }
+ 
+      }
+printf("\n");
+  }
+  return 0;
+}
