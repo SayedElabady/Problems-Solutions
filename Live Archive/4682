@@ -1,0 +1,71 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define MOD 1000000007
+#define PI 3.14159265358979323846
+#define forn(i,s,n) for(int i=s ; i<n ; i++)
+#define fornr(i,s,n) for(int i=n ; i>s ; i--)
+#define mp make_pair
+#define pb push_back  
+#define fr first
+#define sc second
+const int SIZE=7501 * 2 ;
+const int OO = (int)1e9;
+typedef vector<int> vi;
+typedef unsigned long long int ll;  
+typedef pair<int , int > ii;
+typedef pair<pair<int, double> , int > iii;
+typedef vi row;
+typedef vector<row> matrix;
+
+int n , arr[100009] , curr_xor;
+struct Trie
+{
+  int val;
+  Trie* arr[2];
+  Trie(){
+    val = 0;
+    arr[0]=arr[1]=NULL;
+  }
+  
+};
+void ins(Trie *root){
+  Trie *tmp = root;
+  for(int i = 31 ; i >=0 ; --i){
+    bool v = curr_xor & (1<<i);
+      if(tmp->arr[v] == NULL)
+          tmp->arr[v]= new Trie();
+      tmp = tmp->arr[v];
+
+}
+tmp->val = curr_xor;
+}
+int query(Trie *root){
+  Trie *tmp = root ;
+  for(int i = 31 ; i >=0 ; --i){
+    bool v = curr_xor & (1<<i);
+      if(tmp->arr[!v]!=NULL)
+        tmp=tmp->arr[!v];
+      else if(tmp->arr[v]!=NULL)
+        tmp=tmp->arr[v];
+
+
+}
+return curr_xor^(tmp->val);
+}
+int main(){
+  while(scanf("%d" , &n) == 1){    
+    forn(i , 0 , n)scanf("%d" , arr + i);
+
+    Trie *root = new Trie();
+    curr_xor =0;
+    int res = -OO;
+    forn(i , 0 , n){
+      curr_xor ^= arr[i];
+      ins(root);
+      res = max(res , query(root));
+    }
+    printf("%d " , res);
+  }
+     
+     
+}
