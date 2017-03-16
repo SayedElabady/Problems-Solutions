@@ -1,0 +1,66 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define MOD 1000000007
+#define PI 3.14159265358979323846
+#define forn(i,s,n) for(int i=s ; i<n ; i++)
+#define fornr(i,s,n) for(int i=n ; i>s ; i--)
+#define mp make_pair
+#define pb push_back  
+#define fr first
+#define sc second
+const int SIZE=75001 * 2 ;
+const int OO = (int)1e9;
+typedef vector<int> vi;
+typedef unsigned long long int ll;  
+typedef pair<int , int > ii;
+typedef pair<pair<int, double> , int > iii;
+typedef vi row;
+typedef vector<row> matrix;
+int F[SIZE] , arr[SIZE];
+string s1 , s2 , S ;
+void Pre(){
+  int k = 0 ;
+  F[0]=0;
+  forn(i , 1 , S.size()){
+
+    while(k>0 && S[k]!=S[i]) k = F[k-1];
+        if(S[k]==S[i]) ++k;
+        F[i] = k;
+    
+  }
+
+
+}
+
+int main(){
+     cin >>s1 >> s2;
+     S = s1 + "&" + s2;
+     Pre();
+    
+     int len1 = s1.size() , len2=s2.size();
+     int p = len2-1;
+     int it =0;
+     while(F[len1+1+p] > 0){
+      p-=F[len1+1+p];
+      arr[it]=p+1;
+      it++;
+     }
+     if(p!=-1)
+      puts("Yes");
+    else {
+      puts("No");
+      for(int i = it - 1 ; i > 0 ; --i){
+        for(int j = arr[i] ; j < arr[i-1] ; ++j)
+         printf("%c" , s2[j]);
+        printf(" ");
+
+      }
+      for(int i = arr[0] ; i < len2 ; ++i)
+            printf("%c" , s2[i]);
+            printf("\n");
+
+    }
+    
+     
+     
+}
