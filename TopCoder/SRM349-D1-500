@@ -1,0 +1,51 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define MOD 1000000007
+#define PI 3.14159265358979323846
+#define forn(i,s,n) for(int i=s ; i<n ; i++)
+#define fornr(i,s,n) for(int i=n ; i>s ; i--)
+#define mp make_pair
+#define pb push_back  
+#define fr first
+#define sc second
+const int SIZE=100009 ;
+const int OO = (int)1e9;
+typedef vector<int> vi;
+typedef unsigned long long int ll;  
+typedef pair<int , int > ii;
+typedef pair<pair<int, double> , int > iii;
+ 
+ 
+class DiceGames
+{
+    int n ;
+        ll dp[55][55];
+vi A;
+public:
+     ll solve(int idx , int el){
+          if(idx==n)
+               return 1;
+         ll &ret = dp[idx][el];
+          if(~ret)
+               return ret;
+ 
+          ret= 0;
+          for(; el <= A[idx] ; ++el)
+               ret += solve(idx + 1 , el);
+          return ret;
+ 
+     }
+   long long countFormations(vector <int> sides){
+ 
+    memset(dp , -1 , sizeof dp);
+    A = sides;
+    n=sides.size();
+    sort(A.begin() , A.end());
+    ll ans = solve(0 , 1);
+    return ans;
+ 
+ 
+ 
+ 
+};
+};
