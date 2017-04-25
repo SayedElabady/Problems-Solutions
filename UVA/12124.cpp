@@ -43,11 +43,11 @@ int main(){
 	int N ;
 	mpp.clear();
 	scanf("%d %d" , &N , &C );
-	string S , q ;
+
 	int a , b;
-	
+	char S[105] , Q[105];
 	forn(i , 0 , N){
-		cin >> S >> q >> a >> b;
+		scanf("%s %s %d %d" , S , Q , &a , &b);
 	
 		mpp[S].pb({a , b});
 	}
