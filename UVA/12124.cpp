@@ -54,15 +54,15 @@ int main(){
 //	forn(i , 0 , 10)cout << solve(i, C) << endl;
 	 int l = 0 , r = 1000000000; 
 	 int ans = -1;
-	 while(r >= l){
-	 	int mid = (l+r)/2;
+	 while(r > l){
+	 	int mid = (l+r+1)/2;
 	 	if(solve(mid , C)){
 	 		ans = max(ans , mid);
-	 		l = mid +1  ;
+	 		l = mid ;
 	 	}else 
 	 	r = mid -1;
 	 }
-	 printf("%d\n" , ans);
+	 printf("%d\n" , l);
 	}
 
 
