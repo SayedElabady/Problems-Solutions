@@ -1,0 +1,83 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define MOD           1000000007
+#define forn(i,s,n)   for(int i = s ; i < n ; i++)
+#define mp            make_pair
+#define pb            push_back  
+#define st            first
+#define nd            second
+#define sz(v)         ((int)((v).size()))
+const int SIZE=1000005;
+const int OO = (int)1e9;
+const double PI = acos(-1);
+typedef vector<int> vi;
+typedef long long int ll;  
+typedef pair<int , int > ii;
+typedef pair<int , int > Point;
+typedef pair<pair<int, double> , int > iii;
+ int n , k ;
+ double a;
+int level[10] , loyal[10] ;
+double res = 0;
+int G(int mask){
+int ret = 0 ;
+	while(mask){
+		ret += mask % 2;
+		mask /= 2;
+	}
+	return ret;
+}
+double solve(){
+	double ret = 0 ;
+	double toDie = 0;
+	for(int mask = 0 ; mask < (1<<n) ; mask++){
+		double X = 1;
+		toDie = 0;
+		for (int i = 0; i < n; ++i)
+		{
+		    // cout << X << " ";
+			if(mask & 1 << i) // with us? vote yes?
+				X *= ((1.0 *loyal[i]) / 100) ; 
+			else 
+			{
+				X *= (1 - ((1.0*loyal[i]) / 100));
+				toDie += level[i];
+			}
+         // cout << X << endl;
+		}
+		if(G(mask) > n/2) // enough for approval 
+			ret += X;
+		else 
+			ret += (X * (a/(a+toDie)));
+	}
+//	cout << endl;
+	return ret;
+     
+}
+void ans(int sen , int k){
+	if(sen == n){
+		// try with the current loyal levels 
+		res = max(res , solve());
+		return ;
+	}
+	ans(sen + 1 , k); // try give the candles to the next sentor
+	if(k && loyal[sen]<100){
+		loyal[sen] += 10 ;
+		ans(sen , k - 1); // give him one and try him again
+		loyal[sen] -= 10; // not to affect the calculations
+	}
+
+
+}
+int main() 
+{	
+	scanf("%d %d %lf" , &n , &k , &a);
+	forn(i , 0 , n)
+		scanf("%d %d" , &level[i] , &loyal[i]);
+          ans(0 , k);
+     printf("%0.9lf" ,res );
+
+
+
+	
+}
