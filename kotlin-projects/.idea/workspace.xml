@@ -1,7 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93e6001a-2969-4349-ad39-2279754af19b" name="Default Changelist" comment="" />
+    <list default="true" id="93e6001a-2969-4349-ad39-2279754af19b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/1041.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/1109.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/1267.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/1288.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/1319.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/1366.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/137.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/1402.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/141.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/1437.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/144.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/1609.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/1631.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/1657.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/1679.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/191.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/199.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/216.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/23.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/238.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/260.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/328.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/348.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/386.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/399.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/445.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/454.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/462.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/49.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/539.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/594.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/62.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/621.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/63.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/64.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/676.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/677.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/692.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/729.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/821.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/869.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/900.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/946.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/980.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leet-code/KeyboardLocks.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leet-code/KeyboardLocks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leet-code/META-INF/leet-code.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leet-code/META-INF/leet-code.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leet-code/OLX_TestKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leet-code/codility/InteraxonTest/First.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leet-code/codility/InteraxonTest/FirstKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leet-code/codility/InteraxonTest/Second.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leet-code/codility/InteraxonTest/SecondKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leet-code/codility/InteraxonTest/Third.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leet-code/codility/InteraxonTest/ThirdKt.class" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +73,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1Sm5ixUQkMpf6OSyqMachqTT9GL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/CourseraAlgo" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -44,67 +107,67 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin._39Kt">
-    <configuration name="_1020Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin._191Kt">
+    <configuration name="_1437Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="_1020Kt" />
+      <option name="MAIN_CLASS_NAME" value="_1437Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_1664Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="_1631Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="_1664Kt" />
+      <option name="MAIN_CLASS_NAME" value="_1631Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_39Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="_191Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="_39Kt" />
+      <option name="MAIN_CLASS_NAME" value="_191Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_48Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="_539Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="_48Kt" />
+      <option name="MAIN_CLASS_NAME" value="_539Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_547Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="_946Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="_547Kt" />
+      <option name="MAIN_CLASS_NAME" value="_946Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -112,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin._39Kt" />
-        <item itemvalue="Kotlin._1020Kt" />
-        <item itemvalue="Kotlin._1664Kt" />
-        <item itemvalue="Kotlin._547Kt" />
-        <item itemvalue="Kotlin._48Kt" />
+        <item itemvalue="Kotlin._191Kt" />
+        <item itemvalue="Kotlin._946Kt" />
+        <item itemvalue="Kotlin._1631Kt" />
+        <item itemvalue="Kotlin._539Kt" />
+        <item itemvalue="Kotlin._1437Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -132,6 +195,19 @@
       <updated>1572156062807</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -688,6 +764,197 @@
           <line>15</line>
           <option name="timeStamp" value="256" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/1267.kt</url>
+          <line>17</line>
+          <option name="timeStamp" value="257" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/1267.kt</url>
+          <line>25</line>
+          <option name="timeStamp" value="258" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/445.kt</url>
+          <line>23</line>
+          <option name="timeStamp" value="262" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/445.kt</url>
+          <line>41</line>
+          <option name="timeStamp" value="263" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/64.kt</url>
+          <line>14</line>
+          <option name="timeStamp" value="264" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/63.kt</url>
+          <line>29</line>
+          <option name="timeStamp" value="266" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/980.kt</url>
+          <line>13</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="269" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/980.kt</url>
+          <line>19</line>
+          <option name="timeStamp" value="271" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/980.kt</url>
+          <line>22</line>
+          <option name="timeStamp" value="274" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/1402.kt</url>
+          <line>37</line>
+          <option name="timeStamp" value="276" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/1402.kt</url>
+          <line>33</line>
+          <option name="timeStamp" value="280" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/1041.kt</url>
+          <line>8</line>
+          <option name="timeStamp" value="283" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/454.kt</url>
+          <line>31</line>
+          <option name="timeStamp" value="284" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/454.kt</url>
+          <line>14</line>
+          <option name="timeStamp" value="285" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/869.kt</url>
+          <line>34</line>
+          <option name="timeStamp" value="289" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/49.kt</url>
+          <line>11</line>
+          <option name="timeStamp" value="290" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/238.kt</url>
+          <line>17</line>
+          <option name="timeStamp" value="291" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/1366.kt</url>
+          <line>19</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="292" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/729.kt</url>
+          <line>11</line>
+          <option name="timeStamp" value="294" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/729.kt</url>
+          <line>4</line>
+          <option name="timeStamp" value="295" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/1609.kt</url>
+          <line>7</line>
+          <option name="timeStamp" value="296" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/1609.kt</url>
+          <line>9</line>
+          <option name="timeStamp" value="297" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/1609.kt</url>
+          <line>12</line>
+          <option name="timeStamp" value="298" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/216.kt</url>
+          <line>9</line>
+          <option name="timeStamp" value="300" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/1657.kt</url>
+          <line>24</line>
+          <option name="timeStamp" value="301" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/1657.kt</url>
+          <line>26</line>
+          <option name="timeStamp" value="302" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/1657.kt</url>
+          <line>12</line>
+          <option name="timeStamp" value="303" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/1657.kt</url>
+          <line>14</line>
+          <option name="timeStamp" value="304" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/1657.kt</url>
+          <line>16</line>
+          <option name="timeStamp" value="305" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/621.kt</url>
+          <line>7</line>
+          <option name="timeStamp" value="306" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/1437.kt</url>
+          <line>13</line>
+          <option name="timeStamp" value="307" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/1437.kt</url>
+          <line>4</line>
+          <option name="timeStamp" value="308" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/539.kt</url>
+          <line>7</line>
+          <option name="timeStamp" value="309" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/1631.kt</url>
+          <line>19</line>
+          <option name="timeStamp" value="315" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/946.kt</url>
+          <line>7</line>
+          <option name="timeStamp" value="316" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/191.kt</url>
+          <line>3</line>
+          <option name="timeStamp" value="317" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/191.kt</url>
+          <line>9</line>
+          <option name="timeStamp" value="318" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Solution793.java</url>
           <line>14</line>
@@ -740,10 +1007,8 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JetRunConfigurationType">
-        <watch expression="sumArray[innerLoopIndex] - sumArray[innerLoopIndex - M - 1]" language="kotlin" />
-        <watch expression="b[index] != '*'" language="kotlin" />
-        <watch expression="visitedNodes" language="kotlin" />
-        <watch expression="b[index]" language="kotlin" />
+        <watch expression="number % 2" language="kotlin" />
+        <watch expression="(level % 2 != 0 &amp;&amp; node.`val` &gt;= levelsLastValue[level])" language="kotlin" />
       </configuration>
       <configuration name="Application">
         <watch expression="(int) nums[it] -'0'" language="JAVA" />
