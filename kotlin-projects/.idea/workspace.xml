@@ -2,61 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93e6001a-2969-4349-ad39-2279754af19b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/1041.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/1109.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/1267.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/1288.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/1319.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/1366.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/137.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/1402.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/141.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/1437.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/144.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/1609.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/1631.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/1657.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/1679.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/191.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/199.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/216.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/23.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/238.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/260.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/328.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/348.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/386.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/399.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/445.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/454.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/462.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/49.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/539.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/594.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/62.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/621.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/63.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/64.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/676.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/677.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/692.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/729.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/821.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/869.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/900.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/946.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/980.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/1249.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/1481.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/17.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/1749.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/240.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/36.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/856.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algo1/116.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algo1/120.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algo1/167.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algo1/189.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algo1/19.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algo1/190.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algo1/198.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algo1/206.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algo1/21.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algo1/231.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algo1/278.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algo1/283.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algo1/3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algo1/35.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algo1/46.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algo1/542.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algo1/557.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algo1/567.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algo1/617.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algo1/695.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algo1/70.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algo1/704.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algo1/733.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algo1/77.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algo1/876.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algo1/994.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DS1/1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DS1/217.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DS1/350.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DS1/53.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DS1/88.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leet-code/KeyboardLocks.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leet-code/KeyboardLocks.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/leet-code/META-INF/leet-code.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leet-code/META-INF/leet-code.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leet-code/OLX_TestKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leet-code/codility/InteraxonTest/First.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leet-code/codility/InteraxonTest/FirstKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leet-code/codility/InteraxonTest/Second.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leet-code/codility/InteraxonTest/SecondKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leet-code/codility/InteraxonTest/Third.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leet-code/codility/InteraxonTest/ThirdKt.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,67 +92,67 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin._191Kt">
-    <configuration name="_1437Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.Algo1._190Kt">
+    <configuration name="Algo1._189Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="_1437Kt" />
+      <option name="MAIN_CLASS_NAME" value="Algo1._189Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_1631Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="Algo1._190Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="_1631Kt" />
+      <option name="MAIN_CLASS_NAME" value="Algo1._190Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_191Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="Algo1._3Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="_191Kt" />
+      <option name="MAIN_CLASS_NAME" value="Algo1._3Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_539Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="Algo1._994Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="_539Kt" />
+      <option name="MAIN_CLASS_NAME" value="Algo1._994Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_946Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="DS1._88Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="leet-code" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="_946Kt" />
+      <option name="MAIN_CLASS_NAME" value="DS1._88Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -175,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin._191Kt" />
-        <item itemvalue="Kotlin._946Kt" />
-        <item itemvalue="Kotlin._1631Kt" />
-        <item itemvalue="Kotlin._539Kt" />
-        <item itemvalue="Kotlin._1437Kt" />
+        <item itemvalue="Kotlin.Algo1._190Kt" />
+        <item itemvalue="Kotlin.Algo1._189Kt" />
+        <item itemvalue="Kotlin.Algo1._994Kt" />
+        <item itemvalue="Kotlin.Algo1._3Kt" />
+        <item itemvalue="Kotlin.DS1._88Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -194,6 +179,14 @@
       <option name="presentableId" value="Default" />
       <updated>1572156062807</updated>
     </task>
+    <task id="LOCAL-00001" summary="Upload Jan solutions.">
+      <created>1612733325522</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612733325522</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,6 +201,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Upload Jan solutions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Upload Jan solutions." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -955,6 +952,71 @@
           <line>9</line>
           <option name="timeStamp" value="318" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/1481.kt</url>
+          <line>16</line>
+          <option name="timeStamp" value="319" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/1249.kt</url>
+          <line>9</line>
+          <option name="timeStamp" value="321" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/1749.kt</url>
+          <line>9</line>
+          <option name="timeStamp" value="322" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/17.kt</url>
+          <line>37</line>
+          <option name="timeStamp" value="323" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/36.kt</url>
+          <line>20</line>
+          <option name="timeStamp" value="324" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/DS1/53.kt</url>
+          <line>7</line>
+          <option name="timeStamp" value="325" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/DS1/88.kt</url>
+          <line>8</line>
+          <option name="timeStamp" value="326" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/Algo1/3.kt</url>
+          <line>22</line>
+          <option name="timeStamp" value="328" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/Algo1/994.kt</url>
+          <line>20</line>
+          <option name="timeStamp" value="330" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/Algo1/189.kt</url>
+          <line>4</line>
+          <option name="timeStamp" value="331" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/Algo1/190.kt</url>
+          <line>13</line>
+          <option name="timeStamp" value="332" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/Algo1/190.kt</url>
+          <line>19</line>
+          <option name="timeStamp" value="333" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/Algo1/190.kt</url>
+          <line>15</line>
+          <option name="timeStamp" value="335" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Solution793.java</url>
           <line>14</line>
@@ -1007,8 +1069,9 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JetRunConfigurationType">
-        <watch expression="number % 2" language="kotlin" />
+        <watch expression="Integer.toBinaryString(result+Int.MAX_VALUE)" language="kotlin" />
         <watch expression="(level % 2 != 0 &amp;&amp; node.`val` &gt;= levelsLastValue[level])" language="kotlin" />
+        <watch expression="pow(2.0,index.toDouble())" language="kotlin" />
       </configuration>
       <configuration name="Application">
         <watch expression="(int) nums[it] -'0'" language="JAVA" />
