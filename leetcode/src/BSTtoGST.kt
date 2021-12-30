@@ -1,4 +1,4 @@
-class Solution4 {
+class SolutionBSTOGEt {
     var sum = 0
     fun bstToGst(root: TreeNode?): TreeNode? {
         calculateSum(root)
